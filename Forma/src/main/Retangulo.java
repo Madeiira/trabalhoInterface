@@ -22,4 +22,9 @@ public class Retangulo extends Forma{
 		// TODO Auto-generated method stub
 	    return (this.lado * 2 ) + ( 2 * this.altura);
 	}
+	public int Comparar(Comparavel c) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
 }

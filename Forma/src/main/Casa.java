@@ -1,12 +1,13 @@
 package main;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Casa implements IAreaCalculavel{
 	  public static void main(String[] args) {
 
-  List<IAreaCalculavel> calculoDeArea = new ArrayList<IAreaCalculavel>();
+  List<IAreaCalculavel> calculoDeArea = new ArrayList<>();
   
   Forma c = new Circulo(1);
   Forma q = new Quadrado(2);
@@ -17,10 +18,15 @@ public class Casa implements IAreaCalculavel{
   calculoDeArea.add(q);
   calculoDeArea.add(r);
   calculoDeArea.add(t);
+
   for(IAreaCalculavel area : calculoDeArea) {
-  	System.out.println("Areas dos cômodos:"+area.calcularArea());
+  	System.out.println("Areas dos cômodos: "+area.calcularArea());
     }
+
+	  
 	  }
+	  
+	  
 
 	@Override
 	public double calcularArea() {

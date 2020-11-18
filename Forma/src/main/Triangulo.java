@@ -24,4 +24,8 @@ public class Triangulo extends Forma{
 		return this.lado * 3;
 	}
 	  
+	public int Comparar(Comparavel c) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 }

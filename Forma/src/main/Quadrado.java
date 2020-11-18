@@ -23,4 +23,8 @@ public class Quadrado extends Forma{
 	    return this.lado * 4 ;
 	}
 
+	public int Comparar(Comparavel c) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 }

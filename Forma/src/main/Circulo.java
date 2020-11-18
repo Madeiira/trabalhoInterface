@@ -19,4 +19,15 @@ public class Circulo extends Forma {
 			return this.raio * 2 * this.pi;
 		}
 
+
+		@Override
+		public int Comparar(Comparavel c) {
+			// TODO Auto-generated method stub
+			return 0;
+		}
+
+
+		
+	
+
 }
